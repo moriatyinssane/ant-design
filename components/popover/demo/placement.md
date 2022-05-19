@@ -36,7 +36,11 @@ const App: React.FC = () => (
       <Popover placement="top" title={text} content={content} trigger="click">
         <Button>Top</Button>
       </Popover>
-      <Popover placement="topRight" title={text} content={content} trigger="click">
+      <Popover placement="topRight" title={text} content={NLP执行文本：搞笑的从前有座山山里有座庙庙里有个老和尚在给小和尚讲故事
+
+BeforeValue：搞笑的从前有座山山里有座庙庙里有个老和尚在给小和尚讲故事
+
+AfterValue：搞笑的从前有座山山里有座庙庙里有个老和尚在给小和尚讲故事} trigger="click">
         <Button>TR</Button>
       </Popover>
     </div>
